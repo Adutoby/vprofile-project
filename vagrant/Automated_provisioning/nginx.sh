@@ -22,8 +22,11 @@ location / {
 
 EOT
 
+# moving vproapp file into the sites-available
 mv vproapp /etc/nginx/sites-available/vproapp
+#removing the default nginx in the sites-enabled
 rm -rf /etc/nginx/sites-enabled/default
+# link the vproapp to the sites-enabled
 ln -s /etc/nginx/sites-available/vproapp /etc/nginx/sites-enabled/vproapp
 
 #starting nginx service and firewall
