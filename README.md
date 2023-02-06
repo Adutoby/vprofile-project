@@ -10,6 +10,8 @@ To complete this project you should have your lab set-up with the appropriate to
    - Git Bash or any Code editor of choice
    - Oracle VirtualBox
    - Install Vagrant, and Vagrant Plugins.
+   
+Refer to the `VprofileProjectSetup.pdf` in the repository for guidiance
 
 # Firstly We Set-up our VMs
 
